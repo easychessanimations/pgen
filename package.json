@@ -1,0 +1,29 @@
+{
+  "name": "@easychessanimations/pgen",
+  "version": "1.0.1",
+  "description": "Npm package generator.",
+  "main": "./lib/pgen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pgen": "./lib/pgen.js"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "generator"
+  ],
+  "author": "easychessanimations",
+  "license": "MIT",
+  "homepage": "https://github.com/easychessanimations/pgen",
+  "bugs": {
+    "url": "https://github.com/easychessanimations/pgen/issues",
+    "email": "chessbotroulette@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easychessanimations/pgen.git"
+  },
+  "dependencies": {}
+}
