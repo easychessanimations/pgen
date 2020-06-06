@@ -1,0 +1,13 @@
+{
+	"global":{
+		"npmUser": "easychessanimations"
+	},
+	"packages":{
+		"foo":{
+
+		},
+		"bar":{
+
+		}
+	}
+}

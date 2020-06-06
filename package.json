@@ -1,6 +1,6 @@
 {
   "name": "@easychessanimations/pgen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Npm package generator.",
   "main": "./lib/pgen.js",
   "scripts": {
@@ -25,5 +25,7 @@
     "type": "git",
     "url": "https://github.com/easychessanimations/pgen.git"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@aestheticbookshelf/fileutils": "^1.0.9"
+  }
 }
