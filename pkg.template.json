@@ -6,6 +6,10 @@
 	"packages":{
 		"foo":{
             "repo": "https://github.com/easychessanimations/foo"
+		},
+        "fooweb":{
+            "repo": "https://github.com/easychessanimations/fooweb",
+            "web": true
 		}
 	}
 }
