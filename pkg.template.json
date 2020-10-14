@@ -1,13 +1,11 @@
 {
 	"global":{
-		"npmUser": "easychessanimations"
+		"npmUser": "easychessanimations",
+        "email": "chessbotroulette@gmail.com"
 	},
 	"packages":{
 		"foo":{
-
-		},
-		"bar":{
-
+            "repo": "https://github.com/easychessanimations/foo"
 		}
 	}
 }
