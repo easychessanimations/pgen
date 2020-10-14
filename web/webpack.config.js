@@ -46,7 +46,9 @@ module.exports = {
      rules: [
         {
           test: /\.jpe?g$|\.ico$|\.gif$|\.png$|\.svg$|\.woff$|\.ttf$|\.wav$|\.mp3$/,
-          loader: 'file-loader?name=[name].[ext]'  // <-- retain original file name
+          use:{
+            loader: 'file-loader?name=[name].[ext]'  // <-- retain original file name
+          }          
         },
        {
          test: /\.css$/,
