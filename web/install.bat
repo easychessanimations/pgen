@@ -1,13 +1,14 @@
-npm install @babel/core -D
-npm install @babel/preset-env -D
-npm install babel-loader -D
-npm install css-loader -D
-npm install file-loader -D
-npm install style-loader -D
-npm install webpack -D
-npm install webpack-cli -D
-npm install webpack-dev-server -D
-npm install clean-webpack-plugin -D
-npm install html-webpack-plugin -D
+call npm install @babel/core -D
+call npm install @babel/preset-env -D
+call npm install babel-loader -D
+call npm install css-loader -D
+call npm install file-loader -D
+call npm install style-loader -D
+call npm install webpack -D
+call npm install webpack-cli -D
+call npm install webpack-dev-server -D
+call npm install clean-webpack-plugin -D
+call npm install html-webpack-plugin -D
 
-npm install @easychessanimations/foo
+call npm install @easychessanimations/foo
+
