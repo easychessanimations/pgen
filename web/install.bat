@@ -9,6 +9,8 @@ call npm install webpack-cli -D
 call npm install webpack-dev-server -D
 call npm install clean-webpack-plugin -D
 call npm install html-webpack-plugin -D
+call npm install chokidar -D
+call npm install open -D
 
 call npm install @easychessanimations/foo
 
