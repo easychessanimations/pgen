@@ -3,7 +3,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
-$PORT = 8080
+PORT = 8080
 
 let devPublic = `http://localhost:${PORT}`
 
