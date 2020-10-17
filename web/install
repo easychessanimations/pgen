@@ -11,6 +11,7 @@ npm install clean-webpack-plugin -D
 npm install html-webpack-plugin -D
 npm install chokidar -D
 npm install open -D
+npm install node-fetch -D
 
 npm install @easychessanimations/foo
 

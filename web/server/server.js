@@ -14,12 +14,17 @@ if(process.argv.length > 2){
 
 const IS_PROD = !IS_DEV
 
-const stamp = new Date().getTime()
+let stamp = new Date().getTime()
 let lastStamp = null
 
 app.get('/stamp', (req, res) => {
     lastStamp = new Date().getTime()
     res.send(`${stamp}`)
+})
+
+app.get('/reloadsrc', (req, res) => {
+    stamp = new Date().getTime()
+    res.send(`updated stamp to ${stamp}`)
 })
 
 let welcomeMessage = "Welcome !!"
@@ -54,6 +59,8 @@ setInterval(_=>{
 }, 200)    
 `
 
+app.use('/dist', express.static('dist'))
+
 app.get('/', (req, res) => {
     res.send(`
     <!doctype html>
@@ -65,6 +72,7 @@ app.get('/', (req, res) => {
             <script>
                 ${reloadScript}
             </script>
+            <script src="dist/bundle.js"></script>
         </body>
     </html>
     `)  
