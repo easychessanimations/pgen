@@ -7,4 +7,6 @@ git add .
 
 git commit -m "Bump"
 
-call s\p
+git push github master
+
+git push gitlab master
